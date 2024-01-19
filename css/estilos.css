@@ -1,0 +1,48 @@
+
+
+.boton {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    border: solid black 1px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, 
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    
+    
+  }
+
+  .boton:hover{
+    background-color: #2bee2b;
+  }
+
+  .contenedor {
+    margin: 0 auto;
+    display: grid;
+  flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border: solid black;
+    width: 30%;
+    -webkit-box-shadow: inset 0px 0px 68px 82px rgba(0,0,0,0.73);
+-moz-box-shadow: inset 0px 0px 68px 82px rgba(0,0,0,0.73);
+box-shadow: inset 0px 0px 68px 82px rgba(0,0,0,0.73);
+    
+  }
+  
+
+  
+  @media (max-width: 850px) {
+    .boton {
+      width: 80%;
+    }
+  }
+
+  h1{
+    text-align: center;
+    color: rgb(255 * sin(x / 100), 255 * sin(x / 50), 255 * sin(x / 25));
+  }
